@@ -26,6 +26,7 @@ function insertAIDiv(selector) {
 
   // 插入 SVG 图标
   aiIcon.innerHTML = `<svg aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-dianshiji"></use></svg>`
+  
 
 
   const aiTitleTextDiv = document.createElement('div');
@@ -41,7 +42,7 @@ function insertAIDiv(selector) {
 
   const aiExplanationDiv = document.createElement('div');
   aiExplanationDiv.className = 'tianliGPT-explanation';
-  aiExplanationDiv.innerHTML = '正在加载...' + '<span class="blinking-cursor"></span>';
+  aiExplanationDiv.innerHTML = '生成中...' + '<span class="blinking-cursor"></span>';
   aiDiv.appendChild(aiExplanationDiv); // 将 tianliGPT-explanation 插入到 aiDiv，而不是 aiTitleDiv
 
   // 将创建的元素插入到目标元素的顶部
