@@ -22,11 +22,11 @@
   --heo-shadow-green: 0 8px 12px -3px #87ee7936;
   --heo-logo-color: linear-gradient(215deg, #4584ff 0%, #cf0db9 100%);
   --heo-snackbar-time: 5s;
-  --heo-theme: #425AEF;
+  --heo-theme: #66CCFF;
   --heo-theme-op: #4259ef23;
   --heo-theme-op-deep: #4259efdd;
   --heo-theme-none: #4259ef01;
-  --heo-blue: #425AEF;
+  --heo-blue: #66CCFF;
   --heo-red: #f04a63;
   --heo-pink: #FF7C7C;
   --heo-green: #57bd6a;
@@ -64,11 +64,11 @@
 }
 
 [data-theme=light] {
-  --heo-theme: #425AEF;
+  --heo-theme: #66CCFF;
   --heo-theme-op: #4259ef23;
   --heo-theme-op-deep: #4259efdd;
   --heo-theme-none: #4259ef01;
-  --heo-blue: #425AEF;
+  --heo-blue: #66CCFF;
   --heo-red: #f04a63;
   --heo-pink: #FF7C7C;
   --heo-green: #57bd6a;
