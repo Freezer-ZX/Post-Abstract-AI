@@ -24,7 +24,7 @@
   --heo-snackbar-time: 5s;
   --heo-theme: #66CCFF;
   --heo-theme-op: #4259ef23;
-  --heo-theme-op-deep: #4259efdd;
+  --heo-theme-op-deep: #66CCFFdd;
   --heo-theme-none: #4259ef01;
   --heo-blue: #66CCFF;
   --heo-red: #f04a63;
@@ -66,7 +66,7 @@
 [data-theme=light] {
   --heo-theme: #66CCFF;
   --heo-theme-op: #4259ef23;
-  --heo-theme-op-deep: #4259efdd;
+  --heo-theme-op-deep: #66CCFFdd;
   --heo-theme-none: #4259ef01;
   --heo-blue: #66CCFF;
   --heo-red: #f04a63;
