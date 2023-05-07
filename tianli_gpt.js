@@ -25,7 +25,9 @@ function insertAIDiv(selector) {
   aiTitleDiv.appendChild(aiIcon);
 
   // 插入 SVG 图标
-  aiIcon.innerHTML = `<svg aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-dianshiji"></use></svg>`
+  aiIcon.innerHTML = `<i class="tianliGPT-title-icon">
+  <svg aria-hidden="true" style="width:1.30em;height:1.30em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;"><use xlink:href="#icon-dianshiji"></use></svg>
+  </i>`
   
 
 
