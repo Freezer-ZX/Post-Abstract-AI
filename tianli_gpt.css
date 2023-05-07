@@ -224,7 +224,7 @@
   animation: blinking-cursor 0.5s infinite;
   -webkit-animation: blinking-cursor 0.5s infinite;
   margin-left: 4px;
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
 @keyframes blinking-cursor {
