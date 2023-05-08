@@ -75,7 +75,7 @@
   --heo-yellow: #c28b00;
   --heo-yellow-op: #d99c001a;
   --heo-orange: #e38100;
-  --heo-fontcolor: #363636;
+  --heo-fontcolor: #ff7242;
   --heo-background: #f7f9fe;
   --heo-reverse: #000;
   --heo-maskbg: rgba(255, 255, 255, 0.6);
@@ -106,10 +106,10 @@
 }
 
 [data-theme=dark] {
-  --heo-theme: #f2b94b;
-  --heo-theme-op: #f2b94b23;
-  --heo-theme-op-deep: #f2b94bdd;
-  --heo-theme-none: #f2b94b00;
+  --heo-theme: #66CCFF;
+  --heo-theme-op: #66CCFF23;
+  --heo-theme-op-deep: #66CCFFdd;
+  --heo-theme-none: #66CCFF00;
   --heo-blue: #0084FF;
   --heo-red: #FF3842;
   --heo-pink: #d44040;
@@ -224,7 +224,6 @@
   animation: blinking-cursor 0.5s infinite;
   -webkit-animation: blinking-cursor 0.5s infinite;
   margin-left: 4px;
-  margin-top: 3px;
 }
 
 @keyframes blinking-cursor {
